@@ -235,3 +235,14 @@
  .moviesList div:hover .name {
     opacity : 1;
  }
+
+ /* for mobile  */
+    @media screen and (max-width : 600px) {
+        body {
+        padding-top: 50px;
+        margin: 0;
+        overflow-x: hidden;    }
+        .moviesList {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
